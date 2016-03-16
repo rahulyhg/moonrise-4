@@ -21,8 +21,20 @@
             android:background="@drawable/zero_ocean" />
 
         <View
-            android:id="@+id/zero_panorama"
-            android:background="@drawable/moonrise_panorama"
+            android:id="@+id/zero_panorama_stars"
+            android:background="@drawable/moonrise_panorama_stars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/zero_panorama_dark"
+            android:background="@drawable/moonrise_panorama_dark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/zero_panorama_light"
+            android:background="@drawable/moonrise_panorama_light"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 

@@ -16,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
     private FrameLayout mZeroLayout;
     private View mZeroOcean;
     private View mZeroMoon;
-    private View mZeroPanorama;
+    private View mZeroPanoramaStars;
+    private View mZeroPanoramaLight;
+    private View mZeroPanoramaDark;
     private MoonShape moonShape;
 
     @Override
@@ -28,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
         mZeroLayout = (FrameLayout) findViewById(R.id.zero_layout);
         mZeroOcean = findViewById(R.id.zero_ocean);
-        mZeroPanorama = findViewById(R.id.zero_panorama);
+        mZeroPanoramaStars = findViewById(R.id.zero_panorama_stars);
+        mZeroPanoramaLight = findViewById(R.id.zero_panorama_light);
+        mZeroPanoramaDark = findViewById(R.id.zero_panorama_dark);
         mZeroMoon = findViewById(R.id.zero_moon);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -60,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void prepareAnimation() {
         setViewScale(0.3f, mZeroMoon);
-        setViewAlpha(0f, mZeroLayout, mZeroPanorama);
+        setViewAlpha(0f, mZeroLayout, mZeroPanoramaStars, mZeroPanoramaLight, mZeroPanoramaDark);
     }
 
     private void animateAllTheThings() {
@@ -86,7 +90,9 @@ public class MainActivity extends AppCompatActivity {
         mZeroMoon.startAnimation(trans);
 
         mZeroLayout.animate().alpha(1f).setDuration(200).start();
-        mZeroPanorama.animate().alpha(1f).setDuration(500).start();
+        mZeroPanoramaStars.animate().alpha(1f).setDuration(500).start();
+        mZeroPanoramaLight.animate().alpha(1f).setDuration(500).start();
+        mZeroPanoramaDark.animate().alpha(1f).setDuration(500).start();
     }
 
     private void setViewAlpha(float alpha, View... views) {
