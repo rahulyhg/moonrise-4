@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DB4C3F</color>
+    <color name="colorPrimaryDark">#C33433</color>
+    <color name="colorAccent">#ff9e13</color>
+
+    <!--<color name="content_background">#f56052</color>--> <!--This is the red background that Alex used in his animation. This animation works on any background.-->
+    <color name="content_background">#fff</color>
+
+    <color name="zero_ocean">#C33433</color>
+    <color name="zero_sky">#e9574d</color>
+    <color name="zero_sun_outer">#f66b61</color>
+    <color name="zero_sun_inner">#ffffff</color>
+    <color name="zero_mountain_dark">#DB4C3F</color>
+    <color name="zero_mountain_bright">#F76C62</color>
+    <color name="zero_star">#F76C62</color>
+
+</resources>

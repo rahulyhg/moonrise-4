@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Zero Animation dimensions -->
+
+    <dimen name="zero_outer_size">200dp</dimen>
+    <dimen name="zero_sun_outer_size">160dp</dimen>
+    <dimen name="zero_sun_inner_size">110dp</dimen>
+
+    <dimen name="zero_line_height">5dp</dimen>
+    <dimen name="zero_line_length_1">108dp</dimen>
+    <dimen name="zero_line_length_2">90dp</dimen>
+    <dimen name="zero_line_length_3">71dp</dimen>
+    <dimen name="zero_line_length_4">42dp</dimen>
+</resources>
